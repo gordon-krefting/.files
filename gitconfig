@@ -1,0 +1,5 @@
+[user]
+	email = gordon@krefting.org
+	name = Gordon Krefting
+[credential]
+	helper = cache
