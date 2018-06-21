@@ -7,16 +7,17 @@ env="unknown"
 if [ "Linux" = "$uname" ] 
 then
   env="linux"
+elif [ "Darwin" = "$uname" ]
+then
+  env="mac"
 fi
 
-if [ "unknown" == env ]
+if [ "unknown" = $env ]
 then
   echo "Unknown environment"
   echo "Uname: $uname"
   exit 1
 fi
-
-echo "$env"
 
 dotfiles=("zshrc" "gitconfig")
 
@@ -24,8 +25,14 @@ dir="${HOME}/.files"
 
 for dotfile in "${dotfiles[@]}";do
   ## ln -s /home/gkreftin/.files/zshrc /home/gkreftin/lzshrc
-  cmd="ln -sf ${HOME}/.files/${dotfile} ${HOME}/.${dotfile}"
+  if [ -e ${HOME}/.files/${dotfile}_${env} ]
+  then
+    cmd="ln -sf ${HOME}/.files/${dotfile}_${env} ${HOME}/.${dotfile}"
+  else
+    cmd="ln -sf ${HOME}/.files/${dotfile} ${HOME}/.${dotfile}"
+  fi
   echo "$cmd"
+  `$cmd`
 done
 
 

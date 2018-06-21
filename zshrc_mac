@@ -1,0 +1,2 @@
+source "${HOME}/.files/zshrc"
+export ZSHCONFIG=mac
