@@ -19,6 +19,6 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-# alias zshconfig="mate ~/.zshrc"
+alias l='ls -lh'
+alias la='ls -lAh'
 
-# alias ohmyzsh="mate ~/.oh-my-zsh"
