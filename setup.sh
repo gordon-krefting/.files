@@ -10,6 +10,9 @@ then
 elif [ "Darwin" = "$uname" ]
 then
   env="mac"
+elif [ "CYGWIN_NT-10.0" = "$uname" ]
+then
+  env="cygwin"
 fi
 
 if [ "unknown" = $env ]
