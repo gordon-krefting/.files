@@ -13,7 +13,7 @@ or
 git clone git@github.com:gordon-krefting/.files.git
 ```
 
-in home directory. (Someday I'll figure out which is better.)
+in the home directory. (Someday I'll figure out which is better.)
 
 Next, run:
 
@@ -23,4 +23,6 @@ Next, run:
 
 to create aliases.
 
-If you get any error, fix the code!
+If you get any errors, fix the code!
+
+Every once in a while, run ``git pull`` to get the latest.
