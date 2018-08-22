@@ -22,7 +22,7 @@ then
   exit 1
 fi
 
-dotfiles=("zshrc" "gitconfig")
+dotfiles=("zshrc" "gitconfig" "vimrc")
 
 dir="${HOME}/.files"
 
