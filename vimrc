@@ -37,3 +37,7 @@ set autoindent
 filetype indent on
 
 let g:rufo_auto_formatting = 1
+
+" The go plugin doesn't work right on old VIMs (like on Dreamhost). This makes
+" the error go away
+let g:go_version_warning = 0
