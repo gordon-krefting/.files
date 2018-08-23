@@ -24,6 +24,12 @@ source $ZSH/oh-my-zsh.sh
 alias l='ls -lh'
 alias la='ls -lAh'
 
+export VISUAL=vim
+export EDITOR="$VISUAL"
+
+
+# Stuff for nvm and serverless autocompletion. Looks weird, but works?
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
