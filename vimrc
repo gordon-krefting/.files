@@ -23,6 +23,7 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'python-mode/python-mode', { 'branch': 'develop' }
 Plug 'vim-ruby/vim-ruby'
 Plug 'ruby-formatter/rufo-vim'
+Plug 'gabrielelana/vim-markdown'
 
 " Initialize plugin system
 call plug#end()
