@@ -42,3 +42,6 @@ let g:rufo_auto_formatting = 1
 " The go plugin doesn't work right on old VIMs (like on Dreamhost). This makes
 " the error go away
 let g:go_version_warning = 0
+
+" For some reason, the md plugin turns spellcheck on
+let g:markdown_enable_spell_checking = 0
