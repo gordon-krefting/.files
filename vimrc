@@ -31,6 +31,14 @@ call plug#end()
 " Turn off vi compatibility
 set nocompatible
 
+set nobackup
+set nowritebackup
+set noswapfile
+
+set ruler
+
+set autoread
+
 set smartindent
 set autoindent
 
