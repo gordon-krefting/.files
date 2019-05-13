@@ -24,6 +24,8 @@ Plug 'python-mode/python-mode', { 'branch': 'develop' }
 Plug 'vim-ruby/vim-ruby'
 Plug 'ruby-formatter/rufo-vim'
 Plug 'gabrielelana/vim-markdown'
+Plug 'itchyny/lightline.vim'
+Plug 'micha/vim-colors-solarized'
 
 " Initialize plugin system
 call plug#end()
@@ -42,6 +44,10 @@ set autoread
 set smartindent
 set autoindent
 
+" needed by lightline
+set laststatus=2
+set noshowmode
+
 " load indent file for the current filetype
 filetype indent on
 
@@ -53,3 +59,12 @@ let g:go_version_warning = 0
 
 " For some reason, the md plugin turns spellcheck on
 let g:markdown_enable_spell_checking = 0
+
+let g:lightline = {
+      \ 'colorscheme': 'solarized',
+      \ }
+
+" config for vim-colors-solarized
+syntax enable
+set background=light
+colorscheme solarized
