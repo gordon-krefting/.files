@@ -18,7 +18,7 @@ ZSH_THEME="mh"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
-  vi-mode
+  #vi-mode
 )
 
 source $ZSH/oh-my-zsh.sh
