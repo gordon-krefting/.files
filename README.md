@@ -26,3 +26,13 @@ to create aliases.
 If you get any errors, fix the code!
 
 Every once in a while, run ``git pull`` to get the latest.
+
+
+## Other stuff
+Might have a tiny vim (on Pi)
+```
+sudo apt install vim-gui-common
+sudo apt install vim-runtime
+```
+
+On first vim use, do ```:PlugInstall```
