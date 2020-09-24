@@ -26,6 +26,7 @@ Plug 'ruby-formatter/rufo-vim'
 Plug 'gabrielelana/vim-markdown'
 Plug 'itchyny/lightline.vim'
 Plug 'micha/vim-colors-solarized'
+Plug 'rust-lang/rust.vim'
 
 " Initialize plugin system
 call plug#end()
@@ -50,6 +51,7 @@ set noshowmode
 
 " load indent file for the current filetype
 filetype indent on
+filetype plugin indent on
 
 let g:rufo_auto_formatting = 1
 
