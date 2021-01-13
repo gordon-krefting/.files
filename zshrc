@@ -37,6 +37,10 @@ function precmd () {
   window_title="\033]0;$USER@$HOST:$PWD\007"
   echo -ne "$window_title"
 }
+function preexec () {
+  window_title="\033]0;$USER@$HOST:$PWD ($1)\007"
+  echo -ne "$window_title"
+}
 
 
 # Stuff for nvm and serverless autocompletion. Looks weird, but works?
