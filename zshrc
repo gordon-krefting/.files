@@ -31,6 +31,13 @@ alias la='ls -lAh'
 export VISUAL=vim
 export EDITOR="$VISUAL"
 
+# window title
+#DISABLE_AUTO_TITLE="true"
+function precmd () {
+  window_title="\033]0;$USER@$HOST:$PWD\007"
+  echo -ne "$window_title"
+}
+
 
 # Stuff for nvm and serverless autocompletion. Looks weird, but works?
 
