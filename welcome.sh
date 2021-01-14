@@ -9,9 +9,14 @@ do
 	i=$(( $i + 1 ))
 done
 
-if command -v figlet > /dev/null 2>&1; then
+#if command -v figlet > /dev/null 2>&1; then
+#	figlet -cW -w$WIDTH -f slant "$HOST"
+#else
+#	echo "Host: $HOST"
+#fi
+
+if figlet -cW -w$WIDTH -f slant "$HOST" > /dev/null 2>&1; then
 	figlet -cW -w$WIDTH -f slant "$HOST"
 else
 	echo "Host: $HOST"
 fi
-
