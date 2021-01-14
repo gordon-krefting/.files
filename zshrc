@@ -55,3 +55,5 @@ export NVM_DIR="$HOME/.nvm"
 # tabtab source for sls package
 # uninstall by removing these lines or running `tabtab uninstall sls`
 [[ -f /home/gkreftin/.nvm/versions/node/v10.7.0/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh ]] && . /home/gkreftin/.nvm/versions/node/v10.7.0/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh
+
+$HOME/.files/welcome.sh
