@@ -21,11 +21,11 @@ done
 
 if figlet -cW -w$WIDTH -f slant "$HOST" > /dev/null 2>&1; then
 	figlet -cW -w$WIDTH -f slant "$HOST"
+	echo ""
 else
-	echo "Host.........: $HOST"
+	echo "Host........: $HOST"
 fi
 
-echo ""
 echo "Date........: `date +"%A, %e %B %Y, %r"`"
 echo "Uptime......: $UPTIME"
 echo "IP..........: $IP"
