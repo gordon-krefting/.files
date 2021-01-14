@@ -10,7 +10,7 @@ do
 done
 
 if command -v figlet > /dev/null 2>&1; then
-	figlet -ctW -f slant "$HOST"
+	figlet -cW -w$WIDTH -f slant "$HOST"
 else
 	echo "Host: $HOST"
 fi
