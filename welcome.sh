@@ -27,7 +27,6 @@ else
 fi
 
 echo "Date........: `date +"%A, %e %B %Y, %I:%M:%S %p %Z"`"
-echo "Date........: `date +"%A, %e %B %Y, %r %Z"`"
 echo "Uptime......: $UPTIME"
 echo "IP..........: $IP"
 
