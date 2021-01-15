@@ -26,7 +26,7 @@ else
 	echo "Host........: $HOST"
 fi
 
-echo "Date........: `date +"%A, %e %B %Y, %r"`"
+echo "Date........: `date +"%A, %e %B %Y, %r %Z"`"
 echo "Uptime......: $UPTIME"
 echo "IP..........: $IP"
 
