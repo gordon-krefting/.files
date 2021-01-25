@@ -3,6 +3,7 @@ export PATH=/usr/local/go/bin:$PATH
 export PATH=/Library/TeX/Distributions/Programs/texbin:$PATH
 export PATH=$HOME/.gem/ruby/2.5.0/bin:$PATH
 export PATH=$HOME/.local:$PATH
+export PATH=$HOME/bin:$PATH
 export PATH=$PATH:.
 
 export GOPATH=$HOME/go
