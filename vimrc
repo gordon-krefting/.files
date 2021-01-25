@@ -49,6 +49,11 @@ set autoindent
 set laststatus=2
 set noshowmode
 
+set mouse=a
+set cmdheight=2
+
+set notitle
+
 " load indent file for the current filetype
 filetype indent on
 filetype plugin indent on
