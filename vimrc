@@ -59,6 +59,10 @@ set notitle
 filetype indent on
 filetype plugin indent on
 
+" tweaks to the arduino plugin settings
+au FileType arduino set tabstop=2
+au FileType arduino set expandtab
+
 let g:rufo_auto_formatting = 1
 
 " The go plugin doesn't work right on old VIMs (like on Dreamhost). This makes
