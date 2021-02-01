@@ -27,6 +27,7 @@ Plug 'gabrielelana/vim-markdown'
 Plug 'itchyny/lightline.vim'
 Plug 'micha/vim-colors-solarized'
 Plug 'rust-lang/rust.vim'
+Plug 'sudar/vim-arduino-syntax'
 
 " Initialize plugin system
 call plug#end()
