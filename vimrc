@@ -28,6 +28,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'micha/vim-colors-solarized'
 Plug 'rust-lang/rust.vim'
 Plug 'sudar/vim-arduino-syntax'
+Plug 'vim-syntastic/syntastic'
 
 " Initialize plugin system
 call plug#end()
@@ -81,3 +82,13 @@ let g:lightline = {
 syntax enable
 set background=light
 colorscheme solarized
+
+" recommended settings for syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
