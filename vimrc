@@ -18,7 +18,6 @@ Plug 'junegunn/vim-easy-align'
 
 " Any valid git URL is allowed
 Plug 'https://github.com/junegunn/vim-github-dashboard.git'
-
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'python-mode/python-mode', { 'branch': 'develop' }
 Plug 'vim-ruby/vim-ruby'
