@@ -9,20 +9,22 @@ endif
 "
 " Specify a directory for plugins
 call plug#begin('~/.vim/plugged')
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-Plug 'gabrielelana/vim-markdown'
-Plug 'itchyny/lightline.vim'
-Plug 'junegunn/vim-github-dashboard'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }	" Go support
+Plug 'gabrielelana/vim-markdown'			" Markdown syntax highlighting
+Plug 'itchyny/lightline.vim'				" Fancy status line
+"Plug 'junegunn/vim-github-dashboard'
 Plug 'junegunn/vim-easy-align'
-Plug 'lifepillar/vim-solarized8'
-Plug 'morhetz/gruvbox'
-Plug 'python-mode/python-mode', { 'branch': 'develop' }
-Plug 'ruby-formatter/rufo-vim'
-Plug 'rust-lang/rust.vim'
-Plug 'sudar/vim-arduino-syntax'
-Plug 'tpope/vim-fugitive'
-Plug 'vim-ruby/vim-ruby'
-Plug 'vim-syntastic/syntastic'
+"Plug 'lifepillar/vim-solarized8'
+Plug 'morhetz/gruvbox'					" gruvbox theme
+Plug 'python-mode/python-mode', { 'branch': 'develop' }	" Python support
+Plug 'ruby-formatter/rufo-vim'				" Ruby support
+Plug 'rust-lang/rust.vim'				" Rust support
+Plug 'scrooloose/nerdtree'				" Tree view
+Plug 'sudar/vim-arduino-syntax'				" Arduino support
+Plug 'tpope/vim-fugitive'				" git helper
+"Plug 'valloric/youcompleteme'
+Plug 'vim-ruby/vim-ruby'				" More Ruby support?
+Plug 'vim-syntastic/syntastic'				" Syntax support for lots of languages
 call plug#end()
 
 " Turn off vi compatibility
