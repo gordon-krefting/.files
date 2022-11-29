@@ -4,12 +4,6 @@ These are my dotfiles. They're probably not right for you!
 On a new system, install zsh and oh-my-zsh, then run:
 
 ```
-git clone https://github.com/gordon-krefting/.files.git
-```
-
-or
-
-```
 git clone git@github.com:gordon-krefting/.files.git
 ```
 
