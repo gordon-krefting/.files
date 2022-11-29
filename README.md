@@ -7,7 +7,7 @@ On a new system, install zsh and oh-my-zsh, then run:
 git clone git@github.com:gordon-krefting/.files.git
 ```
 
-in the home directory. (Someday I'll figure out which is better.)
+in the home directory.
 
 Next, run:
 
