@@ -24,11 +24,11 @@ Plug 'vim-ruby/vim-ruby'
 Plug 'ruby-formatter/rufo-vim'
 Plug 'gabrielelana/vim-markdown'
 Plug 'itchyny/lightline.vim'
-"Plug 'micha/vim-colors-solarized'
 Plug 'rust-lang/rust.vim'
 Plug 'sudar/vim-arduino-syntax'
 Plug 'vim-syntastic/syntastic'
 Plug 'lifepillar/vim-solarized8'
+Plug 'morhetz/gruvbox'
 
 " Initialize plugin system
 call plug#end()
@@ -80,8 +80,8 @@ let g:lightline = {
 
 " colors
 syntax enable
-set background=dark
-colorscheme solarized8
+set background=light
+colorscheme gruvbox
 
 " recommended settings for syntastic
 set statusline+=%#warningmsg#
