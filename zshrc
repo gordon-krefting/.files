@@ -1,5 +1,6 @@
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 export PATH=/usr/local/go/bin:$PATH
+export PATH=/opt/homebrew/bin:$PATH
 export PATH=/Library/TeX/Distributions/Programs/texbin:$PATH
 export PATH=$HOME/.gem/ruby/2.5.0/bin:$PATH
 export PATH=$HOME/.local:$PATH

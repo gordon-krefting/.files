@@ -24,10 +24,11 @@ Plug 'vim-ruby/vim-ruby'
 Plug 'ruby-formatter/rufo-vim'
 Plug 'gabrielelana/vim-markdown'
 Plug 'itchyny/lightline.vim'
-Plug 'micha/vim-colors-solarized'
+"Plug 'micha/vim-colors-solarized'
 Plug 'rust-lang/rust.vim'
 Plug 'sudar/vim-arduino-syntax'
 Plug 'vim-syntastic/syntastic'
+Plug 'lifepillar/vim-solarized8'
 
 " Initialize plugin system
 call plug#end()
@@ -77,10 +78,10 @@ let g:lightline = {
       \ 'colorscheme': 'solarized',
       \ }
 
-" config for vim-colors-solarized
+" colors
 syntax enable
-set background=light
-colorscheme solarized
+set background=dark
+colorscheme solarized8
 
 " recommended settings for syntastic
 set statusline+=%#warningmsg#
