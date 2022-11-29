@@ -9,28 +9,20 @@ endif
 "
 " Specify a directory for plugins
 call plug#begin('~/.vim/plugged')
-
-" Make sure you use single quotes
-"
-"
-" Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
-Plug 'junegunn/vim-easy-align'
-
-" Any valid git URL is allowed
-Plug 'https://github.com/junegunn/vim-github-dashboard.git'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-Plug 'python-mode/python-mode', { 'branch': 'develop' }
-Plug 'vim-ruby/vim-ruby'
-Plug 'ruby-formatter/rufo-vim'
 Plug 'gabrielelana/vim-markdown'
 Plug 'itchyny/lightline.vim'
-Plug 'rust-lang/rust.vim'
-Plug 'sudar/vim-arduino-syntax'
-Plug 'vim-syntastic/syntastic'
+Plug 'junegunn/vim-github-dashboard'
+Plug 'junegunn/vim-easy-align'
 Plug 'lifepillar/vim-solarized8'
 Plug 'morhetz/gruvbox'
-
-" Initialize plugin system
+Plug 'python-mode/python-mode', { 'branch': 'develop' }
+Plug 'ruby-formatter/rufo-vim'
+Plug 'rust-lang/rust.vim'
+Plug 'sudar/vim-arduino-syntax'
+Plug 'tpope/vim-fugitive'
+Plug 'vim-ruby/vim-ruby'
+Plug 'vim-syntastic/syntastic'
 call plug#end()
 
 " Turn off vi compatibility
