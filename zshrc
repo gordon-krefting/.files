@@ -6,11 +6,13 @@ export PATH=$HOME/.gem/ruby/2.5.0/bin:$PATH
 export PATH=$HOME/.local:$PATH
 export PATH=$HOME/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
+export PATH="$(brew --prefix)/opt/python@3.11/libexec/bin:$PATH"
 export PATH=$PATH:.
 
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
 export PATH=$HOME/.cargo/bin:$PATH
+export PATH=~/.npm-global/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
