@@ -25,6 +25,9 @@ Plug 'tpope/vim-fugitive'				" git helper
 "Plug 'valloric/youcompleteme'
 Plug 'vim-ruby/vim-ruby'				" More Ruby support?
 Plug 'vim-syntastic/syntastic'				" Syntax support for lots of languages
+"Plug 'glench/vim-jinja2-syntax'                         " Jinja2 templates
+Plug 'lepture/vim-jinja'                                " maybe...
+Plug 'github/copilot.vim'
 call plug#end()
 
 " Turn off vi compatibility
