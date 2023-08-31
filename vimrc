@@ -13,7 +13,7 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }	" Go support
 Plug 'gabrielelana/vim-markdown'			" Markdown syntax highlighting
 Plug 'itchyny/lightline.vim'				" Fancy status line
 "Plug 'junegunn/vim-github-dashboard'
-Plug 'junegunn/vim-easy-align'
+"Plug 'junegunn/vim-easy-align'
 "Plug 'lifepillar/vim-solarized8'
 Plug 'morhetz/gruvbox'					" gruvbox theme
 Plug 'python-mode/python-mode', { 'branch': 'develop' }	" Python support
@@ -25,8 +25,8 @@ Plug 'tpope/vim-fugitive'				" git helper
 "Plug 'valloric/youcompleteme'
 Plug 'vim-ruby/vim-ruby'				" More Ruby support?
 Plug 'vim-syntastic/syntastic'				" Syntax support for lots of languages
-"Plug 'glench/vim-jinja2-syntax'                         " Jinja2 templates
-Plug 'lepture/vim-jinja'                                " maybe...
+Plug 'glench/vim-jinja2-syntax'                         " Jinja2 templates
+"Plug 'lepture/vim-jinja'                                " maybe...
 Plug 'github/copilot.vim'
 call plug#end()
 
@@ -52,6 +52,8 @@ set mouse=a
 set cmdheight=2
 
 set notitle
+
+set expandtab
 
 " load indent file for the current filetype
 filetype indent on
@@ -89,3 +91,7 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+" tweaks to jinja2 settinga
+autocmd FileType jinja setlocal expandtab shiftwidth=2 softtabstop=2
+autocmd FileType jinja let b:did_indent = 1
